@@ -28,5 +28,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/springboot-ms:latest .
-          docker push ${{ secrets.DOCKER_USERNAME }}/springboot-ms:latest
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/springboot-app:latest .
+          docker push ${{ secrets.DOCKER_USERNAME }}/springboot-app:latest
